@@ -1,0 +1,555 @@
+/*Base sheet produced by Andrew Edwards. If I knew how to lisence this it would be under 
+the open source initiative, opensource.org. Feel free to reuse anything on this sheet in 
+whole or as a part. I only ask that you include credit to the original author.
+
+Cheers. 
+
+*/
+
+
+/* Reset */
+
+html, body {
+	margin:0;
+	padding:0;
+	border:0;
+	background:transparent;
+	font-size:10px;
+}
+
+div, span, article, aside, footer, header,
+hgroup, nav, section, h1, h2, h3, h4, h5, h6, 
+p, blockquote, a, ol, ul, li, table, tr, th, 
+tbody, tfoot, thead {
+	margin:0; 
+	padding:0;
+	border:0;
+	vertical-align:baseline;
+	background:transparent;
+}
+
+img {
+	margin: 0; 
+	padding: 0;
+	border: 0;
+}
+
+table, tr, th, td, tbody, tfoot, thead {
+	margin:0; 
+	padding:0; 
+	border: 0; 
+	vertical-align:baseline;
+	background:transparent;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input, select, textarea, form, fieldset {
+	margin:0;
+	padding: 0; 
+	border: 0;
+}
+
+article, aside, dialog, figure, footer, header, hgroup, nav, selection {
+	display:block;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, blockquote, td, th, a, caption, em, strong, strike {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 100%;
+	text-indent: 0;
+	text-decoration: none;
+	text-align: left;
+	color: #000;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+/*global*/
+
+html {
+	
+}
+
+body{
+	background-color: #9d9f9e;
+}
+
+/*headings*/
+h1, h2, h3, h4, h5, h6 {
+	font-weight:bold; 
+	color: #000;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size:20px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+h4 {
+	font-size: 14px;
+}
+
+h5 {
+	font-size: 14px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+	margin: 0;
+}
+
+/*text elements*/
+
+p {
+	color:#000;
+	font-size:12px;
+	line-height:150%
+}
+
+p .left {
+	margin:1.5em 1.5em 1.5em 0;
+	padding:0;
+}
+
+p .right {
+	margin:1.5em 0 1.5em 1.5em;
+	padding:0;
+}
+
+a {
+	
+}
+
+a:link {
+	color:#00f;
+}
+
+a:visited {
+	color:0f0;
+}
+
+a:active {
+	color:#000;
+}
+
+a:focus {
+	color:#666;
+}
+
+a:hover {
+	color:#f00;
+}
+
+blockquote {
+	color:#000;
+	font-size:12px;
+}
+
+strong {
+	font-weight:bold;
+}
+
+em {
+	font-style: italic;
+}
+
+/*images*/
+
+/*lists*/
+
+ul {
+	
+}
+
+ol {
+	list-style-type:decimal;
+}
+
+ul li {
+	color:#000;
+	font-size:12px;
+}
+
+ol li {
+	color:#000; 
+	font-size:12px;
+}
+
+dl {
+	
+}
+
+dt {
+	
+}
+
+dd {
+	
+}
+
+/*tables */
+
+table {
+	width: 100%;
+}
+
+tr {
+	
+}
+
+.odd {
+	background-color:#eee;
+}
+
+.even {
+	background-color: #fff;
+}
+
+th {
+	font-weight: bold;
+}
+
+thead {
+	background:#ccc;
+}
+
+tbody {
+	
+}
+
+th, td, caption {
+	
+}
+
+caption {
+	
+}
+
+tfoot {
+	
+}
+
+.tfooter {
+	background-color:#ccc;
+	text-align:center;
+	font-style:italic;
+}
+
+caption {
+	background:#efefef;
+}
+
+/*miscellaneous*/
+sup, sub {
+	line-height:0;
+}
+
+abbr, acronym {
+	border-bottom:1px dotted #666; 
+}
+
+address {
+	
+}
+
+del {
+	background: #ffcece; 
+	color:#f00;
+}
+
+code, pre {
+	background-color:#ff9; 
+	padding:2px 0px;
+	margin:4px 25px;
+	font-family:"Courier New", Courier, monospace;
+	font-size: 12px;
+}
+
+/*containers*/
+
+#top {
+	width: 920px;
+	margin: 0px auto;
+	
+}
+#logo {
+	float: left;
+}
+
+#wrapper {
+	width: 900px;
+	margin: 0px auto;
+	background-color: #fff;
+	
+}
+
+#topnav {
+	background-color: #333333;
+	clear:both;
+	
+}
+#topnav ul {
+	width: 100%;
+	float: left;
+	margin: -5px 0 0 0; 
+	background-color: #333;
+	border-bottom: 3px #111 solid;
+}
+#topnav ul li {
+	display: inline;
+}
+
+#topnav ul li a {
+	float: left;
+	padding: 10px 20px;
+}
+
+#topnav a:link {
+	color: #fff;
+}
+#topnav a:visited {
+	color: #fff;
+}
+#topnav a:active {
+	color: #fff;
+}
+#topnav a:hover {
+	color: #fff;
+	background-color: #900;
+}
+#topnav a: focus {
+	color: #fff;
+}
+
+#banner {
+}
+#subbanner {
+	width:100%;
+	background-color:#555555;
+	padding:15px 0;
+	overflow: hidden;
+	border-bottom: 2px #000 solid;
+	border-top: 2px #000 solid;
+	
+}
+#subbanner h3 {
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	line-height:180%;
+}
+
+#content {
+	float:left;
+	width:670px;
+	padding:20px;
+}
+#content h1 {
+	margin:0 0 20px 0;
+	font-size:32px;
+	border-bottom:1px #111 solid;
+	padding:20px 0;
+}
+#content p {
+	margin:18px 0;
+	line-height:200%;
+	
+}
+#content h2 {
+	margin:20px 0 0 0; 
+}
+
+#rightside {
+	padding:20px;	
+	margin-left:675px;
+}
+#rightside h2 {
+	margin:20px 0 10px 0;
+}
+
+#rightside p {
+	margin:8px 0;
+	line-height:200%;
+}
+#rightside ul li {
+	margin:8px 0;
+	line-height:200%;
+}
+#rightside table, th, td {
+	border:1px solid black;
+	width:100%;
+	margin-bottom:8px;
+}
+#rightside th, td {
+	height:50px;
+	text-align:center;
+	vertical-align:baseline;
+}
+#rightside a:link {
+	color: #000;
+}
+#rightside a:visited {
+	color: #000;
+}
+#rightside a:active {
+	color: #000;
+}
+#rightside a:hover {
+	color: #000;
+	background-color: #900;
+}
+#rightside a: focus {
+	color: #000;
+}
+
+
+#footer {
+	clear:both;
+	background-color:#333;
+	padding:10px 0;
+	border-top: 2px solid #000;
+	
+}
+#footer p {
+	text-align:center;
+	color:#fff;
+	font-size:x-small;
+}
+
+#artbox {
+	width: 100%;
+	clear:both;
+}
+
+/*
+ * jQuery Nivo Slider v3.1
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	clear:both;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	max-width: none;
+}
+.nivo-main-image {
+	display: block !important;
+	position: relative !important; 
+	width: 100% !important;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+	top:0;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+	overflow:hidden;
+}
+.nivo-box img { display:block; }
+
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	width:100%;
+	z-index:8;
+	padding: 5px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+	text-align:center;
+	padding: 15px 0;
+}
+.nivo-controlNav a {
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+
